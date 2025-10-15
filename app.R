@@ -12,7 +12,8 @@ ui <- dashboardPage(
       menuItem("Overview", tabName = "overview", icon = icon("dashboard")),
       menuItem("Trends", tabName = "trends", icon = icon("chart-line")),
       menuItem("Data Table", tabName = "table", icon = icon("table")),
-      menuItem("Prediction", tabName = "prediction", icon = icon("chart-area"))
+      menuItem("Prediction", tabName = "prediction", icon = icon("chart-area")),
+      menuItem("Operations", tabName = "operations", icon = icon("tools"))
     )
   ),
   dashboardBody(
